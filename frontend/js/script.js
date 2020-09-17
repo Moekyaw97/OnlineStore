@@ -62,7 +62,7 @@ $(document).ready(function(){
 		var photo = $(this).data('photo');
 		var price = $(this).data('price');
 		var discount = $(this).data('discount');
-		alert('id => '+id);
+		
 		var qty=1;
 		if (item_qty) {
 			qty+=item_qty;
