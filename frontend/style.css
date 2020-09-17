@@ -1,0 +1,122 @@
+#banner{
+	
+	
+	background-color:  #00cccc;
+	
+	background-position: center center;
+
+}
+#footer{
+	background-color:  #00cccc;
+	width: 100%;
+	height: 30vh;
+	
+
+	/*position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;*/
+
+
+}
+#footer{
+	background-color:  #00cccc;
+	width: 100%;
+	height: 100%;
+	background-position: center center;
+
+}
+#logo{
+	width:150px;
+	height: 150px;
+}
+
+
+
+hr{
+	border:2px solid #f82249;
+	width: 5%;
+}
+
+.video-fluid {
+  width: 100%;
+  height: 70vh;
+}
+#image img{
+	width: 100%;
+	height: 150px;
+}
+
+#view{
+	text-decoration: none;
+	color: white;
+	background-color: #D81B60;
+	border:2px solid #26C6DA;
+	border-radius: 50px;
+	padding: 12px 32px;
+}
+#view:hover{
+	background-color:  #00cccc;
+	color:white; 
+
+}
+body{
+	background-color: #b3ecff; 
+}
+
+
+#item{
+	width: 100%;
+	height: 30vh;
+}
+#cards img{
+	width: 150px;
+	height: 150px;
+	
+}
+#firstcarousels img{
+
+	border-radius: 20px;
+    width:  1200px;
+    height: 600px;
+    object-fit: cover;
+}
+#carousels img{
+	border-radius: 20px;
+    width:  1000px;
+    height: 550px;
+    object-fit: cover;
+}
+
+#count .p1[data-count]:after{
+	position: absolute;
+	
+	left: 30%;
+	top: 20%;
+	content: attr(data-count);
+
+	font-size: 25%;
+	padding: 15px;
+	border-radius: 50%;
+	line-height: 1em;
+
+	min-width: 1em;
+	color: white;
+	background: rgba(255,0,0,.85);
+	text-align: center;
+	font-weight:bolder;
+}
+@media only screen and (min-width:  768px){
+	#count{
+		font-size: 3.5rem;
+		margin-top: -0.5rem;
+
+
+	}
+}
+.icon_size{
+	font-size: 50px;
+}
