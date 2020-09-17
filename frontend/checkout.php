@@ -4,7 +4,7 @@ include 'include/head.php';
 
 
 ?>
-<div class="container my-5">
+<div class="container" >
 	<div class="row">
 		<div class="offset-md-2 col-md-8">
 			<h3>Check Out</h3>	
@@ -51,7 +51,11 @@ include 'include/head.php';
 	</div>
 	</div>
 </div>
-
+<div>
+	<br><br><br>
+	<br><br><br>
+	<br><br><br>
+</div>
 
 
 <?php 
